@@ -5,7 +5,8 @@ import org.example.main.model.User;
 import java.util.List;
 
 // TODO: 27.06.2023 Я сделал этот сервис GENERIC TYPE, чтобы можно было использовать для всех реализаторов. 
-public interface Service<T> {
+public interface
+Service<T> {
 
     void createTable();
 
